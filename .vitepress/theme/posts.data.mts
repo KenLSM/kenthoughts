@@ -13,7 +13,13 @@ export default createContentLoader('blog/**/*.md', {
       .map(page => ({
         title: page.frontmatter.title,
         url: page.url,
-        date: page.frontmatter.date,
+        date: page.frontmatter.date
+          ? new Date(page.frontmatter.date).toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+            })
+          : '',
         description: page.frontmatter.description,
         excerpt: page.excerpt,
         tags: page.frontmatter.tags
