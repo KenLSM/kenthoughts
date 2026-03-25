@@ -25,6 +25,6 @@
   "homepage": "https://github.com/KenLSM/KenLSM.github.io#readme",
   "license": "MIT",
   "engines": {
-    "node": "^20"
+    "node": ">20"
   }
 }
