@@ -46,6 +46,11 @@ This site was migrated from Gatsby to VitePress. Key changes:
 - Each post has frontmatter with `title`, `date`, `description`, and optional `draft` flag
 - Posts marked as `draft: true` won't appear in the blog list
 
+## 🌐 Hosting
+
+- **Live site**: https://kenlsm.com
+- **Platform**: Netlify (connected to this repo)
+
 ## 🛠 Tech Stack
 
 - **VitePress**: Static site generator
